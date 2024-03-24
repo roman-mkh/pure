@@ -1,0 +1,11 @@
+{
+	"image": "mcr.microsoft.com/devcontainers/universal:2",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"nwolverson.ide-purescript"
+			]
+		}
+	},
+	"postCreateCommand": "npm install -g purescript spago"
+}
